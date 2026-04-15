@@ -1,9 +1,10 @@
-[  {
+[
+  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "MyUniqueKernel-v1",
+      "repo": "https://github.com",
+      "branch": "azure",
+      "device": "violet"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -24,8 +25,12 @@
       "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AR": "",
-      "CC": "clang"
+      "AR": "llvm-ar",
+      "CC": "clang",
+      "NM": "llvm-nm",
+      "OBJCOPY": "llvm-objcopy",
+      "OBJDUMP": "llvm-objdump",
+      "STRIP": "llvm-strip"
     }
   }
 ]
